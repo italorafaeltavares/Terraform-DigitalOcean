@@ -7,7 +7,7 @@ data "digitalocean_ssh_key" "terraform" {
   name = var.ssh_key_name
 }
 
-resource "digitalocean_droplet" "jenknis" {
+resource "digitalocean_droplet" "jenkins" {
   image    = "ubuntu-22-04-x64"
   name     = "jenkins"
   region   = var.region

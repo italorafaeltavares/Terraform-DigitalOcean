@@ -1,4 +1,4 @@
-resource "digitalocean_kubernetes_cluster" "foo" {
+resource "digitalocean_kubernetes_cluster" "k8s" {
   name    = "k8s"
   region  = var.region
   version = "1.24.4-do.1"
